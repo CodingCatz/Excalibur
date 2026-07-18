@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="zh-TW">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no, viewport-fit=cover" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="Excalibur" />
+    <meta name="theme-color" content="#171717" />
+    <meta name="description" content="Game Design Studio — GDD editor, flow editor, and more." />
+    <link rel="icon" type="image/svg+xml" href="icons/favicon.svg" />
+    <link rel="apple-touch-icon" href="icons/icon-192.png" />
+    <title>Excalibur</title>
+    <!-- GitHub Pages SPA: 還原 404.html 轉過來的路徑 -->
+    <script>
+      (function(l) {
+        if (l.search[1] === '/') {
+          var decoded = l.search.slice(1).split('&').map(function(s) {
+            return s.replace(/~and~/g, '&')
+          }).join('?');
+          window.history.replaceState(null, null,
+            l.pathname.slice(0, -1) + decoded + l.hash
+          );
+        }
+      }(window.location))
+    </script>
+    <script type="module" crossorigin src="/Excalibur/assets/index-BKbZwTDK.js"></script>
+    <link rel="modulepreload" crossorigin href="/Excalibur/assets/vendor-react-DelYdVMW.js">
+    <link rel="modulepreload" crossorigin href="/Excalibur/assets/vendor-ui-fcYIDHQX.js">
+    <link rel="modulepreload" crossorigin href="/Excalibur/assets/vendor-data-CunLsgCg.js">
+    <link rel="modulepreload" crossorigin href="/Excalibur/assets/vendor-flow-DAazdR5p.js">
+    <link rel="modulepreload" crossorigin href="/Excalibur/assets/vendor-math-BvUup1zQ.js">
+    <link rel="stylesheet" crossorigin href="/Excalibur/assets/index-UsOArMLI.css">
+  <link rel="manifest" href="/Excalibur/manifest.webmanifest"></head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>

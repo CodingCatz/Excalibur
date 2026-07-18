@@ -1,0 +1,1 @@
+import{j as e}from"./vendor-ui-fcYIDHQX.js";function r({label:t}){return e.jsx("div",{className:"pt-2 pb-1",children:e.jsx("span",{className:"text-xs font-semibold text-muted-foreground uppercase tracking-wide",children:t})})}export{r as S};

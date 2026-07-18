@@ -1,0 +1,1 @@
+import{a as o}from"./vendor-react-DelYdVMW.js";function s(n,t){o.useEffect(()=>{function f(e){(e.metaKey||e.ctrlKey)&&(e.key==="z"&&!e.shiftKey?(e.preventDefault(),n()):(e.key==="z"&&e.shiftKey||e.key==="y")&&(e.preventDefault(),t()))}return window.addEventListener("keydown",f),()=>window.removeEventListener("keydown",f)},[n,t])}export{s as u};
